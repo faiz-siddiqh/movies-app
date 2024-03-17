@@ -16,7 +16,7 @@ public class MoviesApplication {
     @GetMapping("/root")
     public String apiRoot() {
 
-        return "You are not supposed to land here !! Navigate to /movies";
+        return "You are not supposed to land here !! Navigate to /home";
     }
 
 }
